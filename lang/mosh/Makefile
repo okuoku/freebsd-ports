@@ -1,9 +1,10 @@
 PORTNAME=	mosh
-PORTVERSION=	0.2.7
-PORTREVISION=	7
+PORTVERSION=	0.2.9.p1
+PORTREVISION=	0
 CATEGORIES=	lang
-MASTER_SITES=	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mosh-scheme/
+MASTER_SITES=	https://github.com/higepon/mosh/releases/download/${DISTNAME}/
 PKGNAMESUFFIX=	-scheme
+DISTNAME=	mosh-0.2.9-rc1
 
 MAINTAINER=	mjt@cltn.org
 COMMENT=	Fast R6RS Scheme interpreter
